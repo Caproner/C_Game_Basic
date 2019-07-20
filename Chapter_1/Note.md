@@ -30,7 +30,5 @@
       end = clock();
       printf("%.2lf\n", (double)(end-start)/CLOCKS_PER_SEC);
       return 0;
-  }
+  
   ```
-
-+ 
