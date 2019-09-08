@@ -13,8 +13,6 @@
 
 + 头文件`ctime`中包含着可以获取当前系统挂钟时间的函数`clock()`。于是便可以像下面这样取到运行时间：
 
-  + 
-
   ```c++
   #include <cstdio>
   #include <ctime>
@@ -30,5 +28,5 @@
       end = clock();
       printf("%.2lf\n", (double)(end-start)/CLOCKS_PER_SEC);
       return 0;
-  
   ```
+
